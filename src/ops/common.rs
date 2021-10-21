@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::constants::{MAX_I32_SCALE, MAX_PRECISION_I32, POWERS_10};
 use crate::Decimal;
 

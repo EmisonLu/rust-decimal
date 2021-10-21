@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::constants::MAX_PRECISION_U32;
 use alloc::string::String;
 use core::fmt;

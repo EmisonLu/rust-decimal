@@ -160,8 +160,15 @@
 //!
 //! Please refer to the [Build document](BUILD.md) for more information on building and testing Rust Decimal.
 //!
+
 #![forbid(unsafe_code)]
-#![cfg_attr(not(feature = "std"), no_std)]
+
+#![no_std]
+use std::prelude::v1::*;
+#[macro_use]
+extern crate sgx_tstd as std;
+
+// #![cfg_attr(not(feature = "std"), no_std)]
 extern crate alloc;
 
 mod constants;

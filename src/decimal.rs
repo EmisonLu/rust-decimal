@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::constants::{
     MAX_I128_REPR, MAX_PRECISION_U32, POWERS_10, SCALE_MASK, SCALE_SHIFT, SIGN_MASK, SIGN_SHIFT, U32_MASK, U8_MASK,
     UNSIGN_MASK,

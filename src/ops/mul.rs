@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::constants::{BIG_POWERS_10, MAX_I64_SCALE, MAX_PRECISION_U32, U32_MAX};
 use crate::decimal::{CalculationResult, Decimal};
 use crate::ops::common::Buf24;

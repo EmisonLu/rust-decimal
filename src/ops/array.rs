@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::constants::{POWERS_10, U32_MASK};
 
 /// Rescales the given decimal to new scale.

@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::Decimal;
 
 use arbitrary::{Arbitrary, Result as ArbitraryResult, Unstructured};

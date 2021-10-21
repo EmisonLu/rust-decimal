@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::{
     constants::{MAX_PRECISION, MAX_STR_BUFFER_SIZE},
     error::Error,

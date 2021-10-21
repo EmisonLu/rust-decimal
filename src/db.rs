@@ -1,3 +1,5 @@
+use std::prelude::v1::*;
+
 use crate::constants::MAX_PRECISION_U32;
 use crate::{
     ops::array::{div_by_u32, is_all_zero, mul_by_u32},
